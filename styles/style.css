@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "arial", sans-serif;
+  /* background-color: darkblue; */
+  background-color: #907dfd;
+  color: white;
+}
+.buttonn {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  gap: 2px;
+  background-color: white;
+  color: #907dfd;
+  border: 1px solid #907dfd;
+}
+.buttonn:hover {
+  background-color: #907dfd;
+  border: 1px solid wheat;
+  transition: ease 1s;
+  color: white;
+}
+.social-media {
+  display: flex;
+  width: 100%;
+  gap: 7px;
+  margin-top: 1%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45%;
+  padding: 15px;
+  /* border-bottom: 1px solid grey; */
+}
+
+.container {
+  display: flex;
+  /* justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px; */
+}
+.links {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  padding: 20px;
+  margin-right: 5%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.home:hover {
+  /* color: #907dfd; */
+  padding: 3px;
+  border-bottom: white 1px solid;
+}
+
+.nm {
+  padding: 5px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.nm:hover {
+  color: white;
+  background-color: #907dfd;
+  cursor: pointer;
+  border: white 2px solid;
+}
+
+footer{
+  text-align: center;
+  background-color: #907dfd;
+  color: white;
+  border-top: 1px solid white;
+}
+.footer{
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* lets make it a little bit more responsive */
+@media screen and (max-width: 1030px) {
+  h2 {
+    font-size: 10px;
+    width: 100%;
+  }
+  .auto-input {
+    width: 100%;
+  }
+  .what {
+    font-size: 28px;
+    padding: 5px 0 0 0px;
+    margin-left: 5%;
+    text-align: center;
+    text-decoration: underline;
+    width: 150%;
+  }
+  .r{
+    margin: 0;
+  }
+  .faosiat {
+    width: 150%;
+    font-size: 34px;
+    padding: none;
+    margin-top: 9%;
+    text-align: center;
+    margin-left: 5%;
+    text-decoration: underline;
+  }
+  .nm {
+    font-size: 14px;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  .i-do {
+    font-size: 22px;
+    width: 300px;
+  }
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .links {
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 0;
+  }
+  .follow {
+    font-size: 19px;
+    margin-left: 4%;
+    width: 100%;
+    padding-bottom: 1%;
+  }
+  .social-media {
+    margin-top: 1%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+  }
+  .im {
+    width: 20%;
+    height: 100%;
+  }
+
+  img {
+    width: 50%;
+    height: 100%;
+  }
+  .head {
+    gap: 0;
+  }
+  .part-2{
+    width: 100%;
+  }
+  .bh{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 20px;
+  }
+}
